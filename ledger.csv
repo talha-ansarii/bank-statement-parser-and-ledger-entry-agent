@@ -1,0 +1,74 @@
+Date,Description,Debit,Credit,Transaction Type,Ledger Entry
+28-03-2025,UPI payment from ASIM ALI on 28-03-2025,0.0,1100.0,Income - UPI Transfer,28-03-2025
+28-03-2025,Chq and UPI payment from ABDUL HAM on 28-03-2025,0.0,400.0,Income - Transfer,28-03-2025
+28-03-2025,Chq and UPI payment from ABDUL HAM on 28-03-2025,0.0,1000.0,Income - Transfer,28-03-2025
+28-03-2025,UPI payment from ABDUL HAM on 28-03-2025,0.0,1000.0,Income - UPI Transfer,28-03-2025
+29-03-2025,DELHI MET AIRPORT Payment on 29-03-2025,200.0,0.0,Expense - Travel,29-03-2025
+29-03-2025,UPI Credit from FARHA HUS on 29-03-2025,0.0,8500.0,Uncategorized,29-03-2025
+29-03-2025,Mobile banking transfer from GUL E RANA to BISMAH (CANARA) on 29-03-2025,0.0,28000.0,Uncategorized,29-03-2025
+29-03-2025,UPI Debit to MOHAMMAD (SBIN) on 29-03-2025,15000.0,0.0,Uncategorized,29-03-2025
+29-03-2025,UPI Debit to PARVEJ (BARB) on 29-03-2025,13000.0,0.0,Uncategorized,29-03-2025
+30-03-2025,UPI Credit from MOHD WASI (BARB) - ADVANCE on 30-03-2025,0.0,2000.0,Uncategorized,30-03-2025
+30-03-2025,Mobile banking transfer from BISMAH ANSARI to RUKHSAR JAHAN (CANARA) on 30-03-2025,8500.0,0.0,Uncategorized,30-03-2025
+30-03-2025,30-03-2025 - UPI payment to MOHD ADIL,230.0,0.0,Uncategorized,30-03-2025
+31-03-2025,31-03-2025 - UPI payment from MOHAM MAD,0.0,1100.0,Uncategorized,31-03-2025
+01-04-2025,01-04-2025 - UPI payment to MRS TINA,15.0,0.0,Uncategorized,01-04-2025
+01-04-2025,01-04-2025 - UPI payment to AIRTEL,150.0,0.0,Expense - Mobile Recharge/Bill,01-04-2025
+01-04-2025,01-04-2025 - UPI payment to AIRTEL,150.0,0.0,Expense - Mobile Recharge/Bill,01-04-2025
+01-04-2025,01-04-2025 - UPI payment to SWIGGY,400.0,0.0,Expense - Food,01-04-2025
+01-04-2025,01-04-2025 - UPI transaction from SWIGGY (TXN FAIL),0.0,70.0,Expense - Food,01-04-2025
+02-04-2025,UPI payment to Bajaj Fin on 02-04-2025,150.0,0.0,Expense - EMI,02-04-2025
+02-04-2025,UPI payment to Mrs Tina on 02-04-2025,55.0,0.0,Uncategorized,02-04-2025
+02-04-2025,UPI payment to Bajaj Fin on 02-04-2025,5908.0,0.0,Expense - EMI,02-04-2025
+02-04-2025,NACH payment to Bajaj Finance Ltd on 02-04-2025,3559.0,0.0,Expense - EMI,02-04-2025
+02-04-2025,UPI payment to Bajaj Fin on 02-04-2025,317.0,0.0,Expense - EMI,02-04-2025
+02-04-2025,UPI payment to Subuhi F on 02-04-2025,950.0,0.0,Uncategorized,02-04-2025
+03-04-2025,UPI payment to Uber India on 03-04-2025,122.34,0.0,Expense - Travel,03-04-2025
+03-04-2025,UPI transaction with MRS TINA on 03-04-2025,20.0,0.0,Uncategorized,03-04-2025
+03-04-2025,UPI transaction with MRS TINA on 03-04-2025,30.0,0.0,Uncategorized,03-04-2025
+03-04-2025,UPI transaction with SHABAN A B on 03-04-2025,1200.0,0.0,Uncategorized,03-04-2025
+04-04-2025,UPI transaction with DELHI MET on 04-04-2025,200.0,0.0,Expense - Travel,04-04-2025
+04-04-2025,UPI transaction with MRS TINA on 04-04-2025,15.0,0.0,Uncategorized,04-04-2025
+06-04-2025,UPI transaction with NEERAJ SI on 06-04-2025,76.0,0.0,Uncategorized,06-04-2025
+06-04-2025,UPI transaction with DE VSHANK on 06-04-2025,20.0,0.0,Uncategorized,06-04-2025
+07-04-2025,UPI payment to MRS TINA on 07-04-2025,30.0,0.0,Uncategorized,07-04-2025
+08-04-2025,UPI credit from TALHA ANS on 08-04-2025,0.0,6000.0,Uncategorized,08-04-2025
+09-04-2025,UPI credit from SUHAIL AN on 09-04-2025,0.0,4730.0,Uncategorized,09-04-2025
+09-04-2025,UPI payment to MRS TINA on 09-04-2025,15.0,0.0,Uncategorized,09-04-2025
+09-04-2025,Mobile banking transfer from BISMAH ANSARI to SUHAIL ANJUM on 09-04-2025,4730.0,0.0,Uncategorized,09-04-2025
+09-04-2025,UPI payment to MRS TINA on 09-04-2025,30.0,0.0,Uncategorized,09-04-2025
+09-04-2025,UPI credit from MOHD SHAK with description PAYMENT on 09-04-2025,0.0,2400.0,Uncategorized,09-04-2025
+10-04-2025,NEFT Credit from Plaza Footwear on 10-04-2025.,0.0,8500.0,Income - Payment Received,10-04-2025
+10-04-2025,UPI Debit to Nassar Hu on 10-04-2025.,2500.0,0.0,Expense - UPI Payment,10-04-2025
+11-04-2025,UPI Debit to Mrs Tina on 11-04-2025.,30.0,0.0,Expense - UPI Payment,11-04-2025
+11-04-2025,UPI Credit from Mohammad on 11-04-2025.,0.0,1200.0,Income - UPI Receipt,11-04-2025
+14-04-2025,UPI Debit to Vodafone on 14-04-2025.,299.0,0.0,Expense - Utilities,14-04-2025
+14-04-2025,UPI Credit from Zafreen on 14-04-2025.,0.0,1000.0,Income - UPI Receipt,14-04-2025
+15-04-2025,UPI Debit to Mrs Tina on 15-04-2025.,15.0,0.0,Expense - UPI Payment,15-04-2025
+15-04-2025,15-04-2025 Payment to DELHI MET,200.0,0.0,Expense - Travel,15-04-2025
+16-04-2025,16-04-2025 Transfer to TALHA ANS,4000.0,0.0,Uncategorized,16-04-2025
+16-04-2025,16-04-2025 Transfer to MRS TINA,15.0,0.0,Uncategorized,16-04-2025
+17-04-2025,17-04-2025 Transfer to MRS TINA,15.0,0.0,Uncategorized,17-04-2025
+17-04-2025,17-04-2025 Transfer to MRS TINA,15.0,0.0,Uncategorized,17-04-2025
+17-04-2025,17-04-2025 Payment from SHAHAN A P,0.0,1000.0,Uncategorized,17-04-2025
+18-04-2025,18-04-2025 Transfer from FAROOQ,0.0,1200.0,Uncategorized,18-04-2025
+18-04-2025,UPI Payment from RAFIA PA on 18-04-2025,0.0,1200.0,Income - Transfer,18-04-2025
+19-04-2025,UPI Payment to TALHA ANS on 19-04-2025,1000.0,0.0,Expense - Transfer,19-04-2025
+19-04-2025,UPI Payment to MOHD KAMR on 19-04-2025,100.0,0.0,Expense - Transfer,19-04-2025
+21-04-2025,UPI Payment to DELHI MET on 21-04-2025,200.0,0.0,Expense - Travel,21-04-2025
+21-04-2025,UPI Payment to MRS TINA on 21-04-2025,15.0,0.0,Expense - Transfer,21-04-2025
+21-04-2025,UPI Payment to MRS TINA on 21-04-2025,30.0,0.0,Expense - Transfer,21-04-2025
+21-04-2025,UPI Payment to MRS TINA on 21-04-2025,10.0,0.0,Expense - Transfer,21-04-2025
+22-04-2025,UPI payment to MRS TINA on 22-04-2025,15.0,0.0,Transfer - Personal,22-04-2025
+23-04-2025,UPI payment to MRS TINA on 23-04-2025,15.0,0.0,Transfer - Personal,23-04-2025
+24-04-2025,UPI payment to DELHI MET on 24-04-2025,200.0,0.0,Expense - Travel,24-04-2025
+24-04-2025,UPI received from MOHD TAUH on 24-04-2025,0.0,1400.0,Transfer - Personal,24-04-2025
+24-04-2025,UPI received from FAROOQ on 24-04-2025,0.0,2000.0,Transfer - Personal,24-04-2025
+24-04-2025,UPI received from FAROOQ on 24-04-2025,0.0,400.0,Transfer - Personal,24-04-2025
+25-04-2025,UPI payment to MRS TINA on 25-04-2025,15.0,0.0,Transfer - Personal,25-04-2025
+25-04-2025,UPI Debit from TALHA ANS on 25-04-2025,6000.0,0.0,Transfer - UPI,25-04-2025
+25-04-2025,UPI Debit from TALHA ANS on 25-04-2025,200.0,0.0,Transfer - UPI,25-04-2025
+26-04-2025,UPI Credit from MOHD WASI on 26-04-2025,0.0,800.0,Transfer - UPI,26-04-2025
+28-04-2025,UPI Debit from MRS TINA (SENT USI) on 28-04-2025,15.0,0.0,Transfer - UPI,28-04-2025
+28-04-2025,UPI Debit from MRS TINA (SENT USI) on 28-04-2025,15.0,0.0,Transfer - UPI,28-04-2025
+28-04-2025,UPI Credit from MOHAM MAD (PAYMENT) on 28-04-2025,0.0,1100.0,Transfer - UPI,28-04-2025

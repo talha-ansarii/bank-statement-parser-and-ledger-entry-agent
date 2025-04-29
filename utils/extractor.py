@@ -33,11 +33,8 @@ Strictly follow this:
     - "Finance Charge" → "Expense - Finance Charge"
     - "EMI" → "Expense - EMI"
 
-- If the transaction does not match these examples, **intelligently infer** the category using the words in the description. For example:
-    - "Bata Footwear" → "Expense - Shopping"
-    - "Reliance Digital" → "Expense - Electronics"
-    - "MedPlus" → "Expense - Medical"
-    - "Petrol Pump" → "Expense - Fuel"
+- If the transaction does not match these examples, **intelligently infer** the category using the words in the description.
+- Do not put transfer as a category.
 
 - If no clear inference can be made, mark as "Uncategorized".
 

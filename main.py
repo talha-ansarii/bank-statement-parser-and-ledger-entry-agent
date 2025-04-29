@@ -69,10 +69,10 @@ if uploaded_pdf:
             st.warning(f"No tables found in {os.path.basename(temp_pdf)}")
             continue
 
-        st.subheader("📋 Extracted Tables:")
+        # st.subheader("📋 Extracted Tables:")
         for idx, table in enumerate(tables):
             table_text = "\n".join(table)
-            st.text_area(f"Table {idx+1}", table_text, height=200)
+            # st.text_area(f"Table {idx+1}", table_text, height=200)
             
             
 
@@ -92,10 +92,10 @@ if uploaded_pdf:
         df = pd.DataFrame(data_dicts)
 
         # Display as a Streamlit table
-        st.header("📊 Transaction Table")
+        st.header(f"📊 Transaction Table {i+1}")
         st.dataframe(df)
         # st.text_area(f"Table {idx+1}", all_flat_transactions, height=200)
-        st.success(f"✅ Done processing pdf {i+1} with {len(flat_transactions)} transactions.")
+        st.success(f"✅ Done processing file {i+1} with {len(flat_transactions)} transactions.")
 
     # Clean up
     delete_temp_files(temp_pdfs)
@@ -110,6 +110,11 @@ if uploaded_pdf:
         ledger_csv_buffer = create_ledger(df, output_csv_path=csv_buffer)
         df.to_csv(csv_buffer, index=False)
         
+        st.header("Ledger Entries")
+        ledger_df = pd.read_csv(ledger_csv_buffer)
+        st.dataframe(ledger_df)
+        
+        st.subheader("Download Options")
         st.download_button(
             label="📥 Download bank statement",
             data=csv_buffer.getvalue(),
