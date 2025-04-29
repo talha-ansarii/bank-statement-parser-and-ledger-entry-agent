@@ -1,0 +1,8 @@
+langchain
+pydantic
+python-dotenv
+pandas
+langchain_google_genai
+langchain_docling
+streamlit
+PyPDF2
