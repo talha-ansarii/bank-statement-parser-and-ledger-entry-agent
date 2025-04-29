@@ -1,7 +1,6 @@
 import streamlit as st
 from utils.parser import extract_tables_from_pdf
-from utils.transfer_detector import TransferDetector
-from utils.file_writer import write_to_csv
+# from utils.file_writer import write_to_csv
 from utils.extractor import get_transaction_data
 from ledger.creator import create_ledger
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -12,6 +11,9 @@ import PyPDF2
 import pandas as pd
 import io
 from typing import List
+
+import os
+os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 # Function to split uploaded PDF into 2-page chunks
 def split_pdf_stream(uploaded_pdf):
