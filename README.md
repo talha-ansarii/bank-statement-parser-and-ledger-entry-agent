@@ -76,8 +76,4 @@ Then open your browser to [http://localhost:8501](http://localhost:8501) to inte
 
 ---
 
-## 📋 License
 
-MIT License. See [LICENSE](LICENSE) for details.
-
----
