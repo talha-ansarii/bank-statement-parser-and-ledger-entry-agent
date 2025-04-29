@@ -12,8 +12,8 @@ import pandas as pd
 import io
 from typing import List
 
-os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
-
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 # Function to split uploaded PDF into 2-page chunks

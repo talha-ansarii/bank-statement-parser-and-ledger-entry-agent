@@ -4,10 +4,12 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from typing import List
 import os
 from dotenv import load_dotenv
+import streamlit as st
 
 # Load environment variables
 load_dotenv()
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 def get_transaction_data(table_input: str) -> List[BankTransaction]:
     model = ChatGoogleGenerativeAI(model="gemini-2.5-flash-preview-04-17")
