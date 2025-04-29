@@ -1,4 +1,3 @@
-Here’s a professional and clear `README.md` for your **Bank Statement PDF Processor** project:
 
 ---
 
