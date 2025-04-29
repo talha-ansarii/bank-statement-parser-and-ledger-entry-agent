@@ -1,6 +1,3 @@
-
----
-
 # 📄 Bank Statement PDF Processor
 
 A Streamlit-based application that processes bank statement PDFs, extracts transaction tables, categorizes them intelligently using LLMs, and exports the cleaned data to CSV format.
