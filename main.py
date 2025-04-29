@@ -107,11 +107,10 @@ if uploaded_pdf:
         st.dataframe(df)
 
         csv_buffer = io.StringIO()
-        ledger_csv_buffer = create_ledger(df, output_csv_path=csv_buffer)
+        ledger_csv_buffer, ledger_df = create_ledger(df, output_csv_path=csv_buffer)
         df.to_csv(csv_buffer, index=False)
         
         st.header("Ledger Entries")
-        ledger_df = pd.read_csv(ledger_csv_buffer)
         st.dataframe(ledger_df)
         
         st.subheader("Download Options")

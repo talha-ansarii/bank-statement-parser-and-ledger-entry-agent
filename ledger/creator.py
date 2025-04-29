@@ -23,4 +23,4 @@ def create_ledger(df, output_csv_path: str):
     ledger_csv_buffer = io.StringIO()
     ledger_df.to_csv(ledger_csv_buffer, index=False)
     
-    return ledger_csv_buffer
+    return ledger_csv_buffer, ledger_df
