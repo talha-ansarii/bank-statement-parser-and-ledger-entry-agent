@@ -1,6 +1,5 @@
 import streamlit as st
 from utils.parser import extract_tables_from_pdf
-# from utils.file_writer import write_to_csv
 from utils.extractor import get_transaction_data
 from ledger.creator import create_ledger
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -13,8 +12,8 @@ import io
 from typing import List
 
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
-os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
+
+
 
 # Function to split uploaded PDF into 2-page chunks
 def split_pdf_stream(uploaded_pdf):
@@ -44,6 +43,9 @@ def delete_temp_files(temp_files):
         except Exception as e:
             st.error(f"Error deleting file {temp_file}: {e}")
 
+
+
+# Function to process each table and extract transactions
 def process_table(index, table):
     table_str = "\n".join(table)
     transactions = get_transaction_data(table_str)
@@ -69,15 +71,16 @@ if uploaded_pdf:
             st.warning(f"No tables found in {os.path.basename(temp_pdf)}")
             continue
 
-        # st.subheader("📋 Extracted Tables:")
+        st.subheader("📋 Extracted Tables:")
         for idx, table in enumerate(tables):
             table_text = "\n".join(table)
-            # st.text_area(f"Table {idx+1}", table_text, height=200)
+            st.text_area(f"Table {idx+1}", table_text, height=200)
             
             
 
         all_transactions = [None] * len(tables)
 
+        # Processing 2 tables in parallel using ThreadPoolExecutor
         with ThreadPoolExecutor(max_workers=2) as executor:
             futures = [executor.submit(process_table, idx, table) for idx, table in enumerate(tables)]
             for future in as_completed(futures):
@@ -91,28 +94,32 @@ if uploaded_pdf:
         # Convert to DataFrame
         df = pd.DataFrame(data_dicts)
 
-        # Display as a Streamlit table
         st.header(f"📊 Transaction Table {i+1}")
         st.dataframe(df)
-        # st.text_area(f"Table {idx+1}", all_flat_transactions, height=200)
         st.success(f"✅ Done processing file {i+1} with {len(flat_transactions)} transactions.")
 
     # Clean up
     delete_temp_files(temp_pdfs)
 
     if all_flat_transactions:
+        
+        #Displaying all transactions
         st.header("📈 All Transactions")
         data_dicts: List[dict] = [txn.dict() for txn in all_flat_transactions]
         df = pd.DataFrame(data_dicts)
         st.dataframe(df)
 
         csv_buffer = io.StringIO()
+        
+        #Creating ledger from the transactions
         ledger_csv_buffer, ledger_df = create_ledger(df, output_csv_path=csv_buffer)
         df.to_csv(csv_buffer, index=False)
         
+        #Displaying ledger entries
         st.header("Ledger Entries")
         st.dataframe(ledger_df)
         
+        # Download buttons for CSV files
         st.subheader("Download Options")
         st.download_button(
             label="📥 Download bank statement",

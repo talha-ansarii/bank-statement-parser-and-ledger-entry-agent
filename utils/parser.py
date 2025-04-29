@@ -1,5 +1,6 @@
 from langchain_docling import DoclingLoader
 
+# Using Docling to extract tables from PDF files
 def extract_tables_from_pdf(file_path: str):
     loader = DoclingLoader(file_path=file_path, export_type="markdown")
     docs = loader.load()
