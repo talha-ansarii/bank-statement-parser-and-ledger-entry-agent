@@ -12,7 +12,8 @@ import pandas as pd
 import io
 from typing import List
 
-import os
+os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+
 os.environ["STREAMLIT_WATCHER_TYPE"] = "none"
 
 # Function to split uploaded PDF into 2-page chunks
